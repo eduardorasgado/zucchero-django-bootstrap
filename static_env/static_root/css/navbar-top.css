@@ -1,6 +1,8 @@
 /* Show it's not fixed to the top */
+{% load static %}
 body {
   min-height: 75rem;
+ 
 }
 
 .navbar-static-top{

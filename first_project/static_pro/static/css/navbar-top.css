@@ -2,8 +2,7 @@
 {% load static %}
 body {
   min-height: 75rem;
-  background-image: {% url 'backer.jpg' %};
-  background-color: #cccccc;
+ 
 }
 
 .navbar-static-top{
