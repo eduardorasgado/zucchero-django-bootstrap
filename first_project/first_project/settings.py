@@ -29,8 +29,8 @@ DEBUG = True  #debug true es para desarrollo
 
 ALLOWED_HOSTS = []
 EMAIL_HOST = 'smtp.gmail.com'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-EMAIL_HOST_USER ='eduardorasgadoruiz@gmail.com'
-EMAIL_HOST_PASSWORD = 'OJHyrydOudnedP3'
+EMAIL_HOST_USER ='sender@ejemplo.com'  #Que sea Gmail
+EMAIL_HOST_PASSWORD = 'passwordrealdesender'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
