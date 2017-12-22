@@ -72,7 +72,10 @@
 
     </style>
 
+    
+
     {% block jumbotron %}
+    {% if not request.user.is_staff %}
     <div class="jumbotron" style='background-color: #9A2EFE!important'>
         <div class="container">
         <div class='row'>
@@ -88,11 +91,14 @@
         </div>      
         </div>    
     </div> 
-    <!--fin de lo de boostrap-->
+    {% else %}
+        {{ queryset }}
+    {% endif %}
+
     {% endblock %}
 
     {% block content %}
-
+    {% if not request.user.is_staff %}
     <!--Formulario de Django, el token permite acceder al algoritmo d edenegacion de falsificacion de peticiones-->
 
     <div class="section" id="forms">
@@ -207,6 +213,8 @@
             </div>
         </div>
     </div>
-    
-    {% endblock %}
+    {% endif %}
+     {% endblock %}
+
+       
 

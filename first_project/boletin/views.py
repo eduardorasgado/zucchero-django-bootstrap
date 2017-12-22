@@ -45,6 +45,12 @@ def inicio(request):
 		#obj.save()
 
 	#context = {"titulo":titulo,"el_form":form}
+
+	if request.user.is_authenticated() and request.user.is_staff:
+		    context = {
+		        "queryset" : ['abc','1'],
+		    }
+
 	return render(request,"inicio.html",context)
 
 def contact(request):
