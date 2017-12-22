@@ -1,5 +1,5 @@
 # zucchero-django-bootstrap
-Un ambiente virtual "virtualenv" que coniene una landing page creada en Python y Django, Bootstrap y Font Awesome.
+Un ambiente virtual "virtualenv" que contiene una landing page creada en Python y Django, Bootstrap y Font Awesome.
 
 Consideraciones:
 
@@ -17,3 +17,5 @@ Cree un static root en el base_dir del enviroment virtual, en pocas palabras hay
 Hay muchas cosas que cambiar para modo producción pero el proyecto está ahi para su personalización.
 
 Los usuarios registrados en boletin estan en una base distinta a los usuarios registrados en el sitio
+
+El proyecto web está en la carpeta first_project
