@@ -1,6 +1,5 @@
-# Issue:___________________________________________________
-## Descripción:____________________________________________
-
+# Issue:
+## Descripción:
 ##¿Como puedo replicar el problema?
 Por favor explicanos como podemos replicar el problema y en que sitema operativo ocurre.
 
